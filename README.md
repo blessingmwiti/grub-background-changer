@@ -1,20 +1,29 @@
 # grub-background-changer
-Grub Background Changer
 
 Changes your default grub background to desired image.
 
-Must BE ROOT
-
-USAGE.
+## Must be ROOT
+```bash
+sudo su
+```
+## USAGE.
 
 Clone this repository
-
+```bash
+git clone https://github.com/blessingmwiti/grub-background-changer.git
+```
 Change directory
-
-Give permissions chmod +x grubx.sh
-
-Run sh grubx.sh
-
+```bash
+cd grub-background-changer
+```
+Give permissions
+```bash
+chmod +x grubx.sh
+```
+Run
+```bash
+sh grubx.sh
+```
 Enter path to image. If fails, copy image to /usr/share/images/desktop-base/ and enter the path in script
 
 If successful, it will print background image found
